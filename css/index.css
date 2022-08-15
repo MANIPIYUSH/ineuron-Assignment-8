@@ -75,4 +75,32 @@ margin-top: -350px;
     left: 350px;top: -110px;
 }
 
+body {
+position: relative;
+top: -600px;
 
+}
+
+@media screen and (max-width: 480px) {
+    
+    body{
+        background-color: red;
+    }
+    .nav-items{
+      
+      display: flex;
+      flex-direction: column;
+      margin-left: 200px;
+      color: black;
+
+        
+    }
+    .imgs-div{
+
+        width: 200%;
+        height: 150%;
+    }
+
+
+  }
+  
